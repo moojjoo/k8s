@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: synergychat-crawler-configmap
+  labels:
+    app: synergychat-api
+data:
+  CRAWLER_PORT: "8080"
+  CRWLER_KEYWORDS: love,hate,joy,sadness,anger,disgust,fear,surprise
